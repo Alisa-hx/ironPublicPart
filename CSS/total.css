@@ -1,0 +1,78 @@
+/* CSS reset */
+html, body, ul, li, div, h1, h3, p, h5, h4 { margin: 0; padding: 0;}
+html, body { width: 100%;}
+li { list-style: none;}
+a { text-decoration: none;}
+.f12 { font-size: 12px;}
+.f14 { font-size: 14px;}
+
+.clear:after { display: block; content: ""; clear: both;}
+.clear { zoom: 1;}
+
+/*头部*/
+.hd-top-wrap { background: #ebebeb;}
+.hd-top,.hd-nav { width: 980px; margin: 0 auto;}
+.hd-top h1{ display: inline-block; text-indent: -9999px; float: left;}
+.hd-top .contact { float:right; margin-right: 36px; margin-top: 40px; margin-bottom:25px;}
+.contact li{ float: left; height: 13px; line-height: 16px;}
+.contact a { color: #656565;}
+.contact .phone { color: #013f88; margin-right: 20px;}
+.contact .add { margin-right: 22px; background: url("../imgs/bg.png") no-repeat; padding-left: 20px;}
+.contact .email { background: url("../imgs/bg.png")no-repeat 0 -13px; padding-left: 20px;}
+
+.hd-nav-wrap { background: #0055a7; font-family: "微软雅黑";}
+.hd-nav li { float: left; background: url("../imgs/bg.png") no-repeat 0 -232px; position: relative;}
+.hd-nav .no-bg { background: none;}
+.hd-nav a { display: block; line-height: 33px; padding: 0 34px; color: #ffffff; position: relative;}
+.hd-nav li.us { padding: 0;}
+.hd-nav span { position: absolute; width: 89px; height: 43px; background: url("../imgs/bg.png") no-repeat 0 -263px; bottom:0; right:5px;}
+.hd-nav .left { width: 0; height: 0; border-left: 7px solid transparent; border-bottom: 8px solid #136ac4; position: absolute; left:-7px; top:2px;}
+.hd-nav .right { width: 0; height: 0; border-bottom: 8px solid #136ac4; border-right: 7px solid transparent; position: absolute; right: -5px; top:2px;}
+
+.banner { position: relative;}
+.banner img { width: 100%; height: auto; vertical-align: bottom;}
+.character { position: absolute; top:48%; right: 22%;}
+.character h1 { font-family: "微软雅黑"; font-size: 30px; font-weight: normal; color: #242424; font-style: normal;}
+.character p { font-size: 11px; color: #585759;}
+
+/* sidebar */
+.content-wrap { background: #f6f6f6 url("../imgs/content-bg.png") repeat-x; margin-top: 1px;}
+.content { width: 980px; margin: 0 auto; padding-top: 20px;}
+.content-left { float:left;}
+
+.side-menu { width: 220px; padding: 0 11px; border:1px solid #c8c8c8; border-radius: 5px; background:#ededed url("../imgs/sidemenu.png") no-repeat; }
+.side-menu h2{ color: #fff; font-size: 15px; padding-left: 30px;}
+.side-menu strong { display: block;}
+.side-menu span { font-weight: normal;}
+.side-menu ul { background:url("../imgs/bg.png") no-repeat 30px -307px; width: 220px; margin:0 auto; font-size: 12px; margin:7px 0;}
+.side-menu li { height: 29px; line-height: 36px; border-bottom: 1px solid #e2e2e2; padding-left: 52px;}
+.side-menu a{ color: #666;}
+.side-menu .active { color: #0152a1; font-weight: bold;}
+
+.message-go, .contact-go { width: 240px; height: 83px; border-bottom: 1px solid #e4e4e4;}
+.message-go { background:url("../imgs/bg.png") no-repeat -88px 17px;}
+.contact-go { background:url("../imgs/bg.png") no-repeat 165px -390px;}
+.message-go h3, .contact-go h3 { font-size: 14px; color: #0157ae; font-weight: normal;}
+.message-go span, .contact-go span { color: #d6d6d6;}
+.message-go p, .contact-go p { font-size: 10px; color: #878787;}
+.message { float: right; margin-top: 17px;}
+.message img { float: right;}
+.message img, .contact img { padding-top: 5px;}
+.contact { float:left; margin-top: 17px;}
+
+/* path */
+.content-right{ float: right;}
+.path { height:44px; line-height: 44px; width: 699px; border-bottom: 1px solid #dddddd;}
+.path h5 { color: #0866b8; float: left; padding-left: 8px; padding-top: 5px;}
+.path span { color: #9c9c9c; font-weight: normal;}
+.path p { float: right; font-size: 12px; color: #999999; padding-right: 7px; padding-top: 5px;}
+
+/* footer */
+.footer { background-color: #d9d9d9; height: 74px;}
+.footer-wrap { width: 980px; margin:0 auto;}
+.footer ul { float: left; margin-top: 22px;}
+.footer li { float: left;}
+.footer a { display: block; height: 10px; padding: 0 10px; border-left: 1px solid #c9c9c9; color: #666666; line-height: 12px;}
+.footer .no { border-left: none; padding: 0 10px 0 0;}
+.footer h4 { color: #666666; display: inline; font-weight: normal; float: right; margin-right: 30px; margin-top:22px;}
+.footer p { clear: left; line-height: 28px; color: #8a8a8a;}
